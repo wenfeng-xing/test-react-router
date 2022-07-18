@@ -12,7 +12,7 @@ ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
     <Routes>
       <Route path="/" element={<App />} />
       <Route path="first" element={<First />} />
-      <Route path="second" element={<Second />} />
+      <Route path="second/:company" element={<Second />} />
     </Routes>
     </BrowserRouter>
   </React.StrictMode>

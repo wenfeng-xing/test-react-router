@@ -9,7 +9,7 @@ function App() {
     <div className="App">
       <First />
       <Link to="/first">First</Link>
-      <Link to="/second">Second</Link>
+      <Link to="/second/AAPL">Second</Link>
     </div>
   )
 }

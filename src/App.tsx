@@ -7,7 +7,6 @@ function App() {
 
   return (
     <div className="App">
-      <First />
       <Link to="/first">First</Link>
       <Link to="/second/AAPL">Second</Link>
     </div>

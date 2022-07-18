@@ -11,8 +11,8 @@ ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
     <BrowserRouter>
     <Routes>
       <Route path="/" element={<App />} />
-      <Route path="first" element={<First />} />
-      <Route path="second/:company" element={<Second />} />
+      <Route path="/first" element={<First />} />
+      <Route path="/second/:company" element={<Second />} />
     </Routes>
     </BrowserRouter>
   </React.StrictMode>
